@@ -1,0 +1,353 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #888888;
+    width: 96%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.main-title-yellow {
+    color: yellow;
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 55px;
+}
+
+.main-title-green {
+    color: #00ff00;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.main-title-blue {
+    color: #00aaff;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.red-heading {
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.login-box {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.login-table {
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 18px;
+}
+
+.yellow-label {
+    color: yellow;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+}
+
+input[type="text"],
+input[type="password"] {
+    background-color: #706b22;
+    color: white;
+    border: 2px solid #1a3a9a;
+    padding: 6px;
+    font-size: 18px;
+}
+
+input[type="submit"],
+input[type="reset"],
+button {
+    background-color: #6d6a24;
+    border: 2px solid #999999;
+    padding: 7px 12px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.auth-button {
+    color: #00ff00;
+}
+
+.error-banner {
+    display: inline-block;
+    background-color: blue;
+    color: yellow;
+    font-size: 34px;
+    font-weight: bold;
+    padding: 20px 35px;
+    margin-top: 70px;
+}
+
+.error-title {
+    color: red;
+    font-size: 72px;
+    font-weight: bold;
+    margin-top: 140px;
+}
+
+.green-text {
+    color: lightgreen;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.red-text {
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Root / Client SQL pages */
+
+.root-title {
+    color: #00ff00;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.root-subtitle {
+    color: #ffcc00;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sql-instruction {
+    color: white;
+    font-size: 18px;
+    margin-top: 18px;
+}
+
+.sql-role-root {
+    color: #ff3333;
+    font-weight: bold;
+}
+
+.sql-form {
+    margin-top: 20px;
+}
+
+.sql-textarea {
+    width: 78%;
+    height: 150px;
+    background-color: #0033cc;
+    color: white;
+    border: 3px solid #999999;
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.sql-button-row {
+    margin-top: 12px;
+}
+
+.execute-button {
+    color: #00ff00;
+}
+
+.reset-button {
+    color: red;
+}
+
+.clear-button {
+    color: yellow;
+}
+
+.results-label {
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.execution-title {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+    width: 90%;
+    margin: 20px auto 10px auto;
+}
+
+.result-box-success {
+    background-color: #00ff00;
+    color: black;
+    font-weight: bold;
+    width: 85%;
+    margin: 10px auto;
+    padding: 15px;
+    border: 3px solid white;
+    text-align: center;
+}
+
+.result-box-error {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    width: 85%;
+    margin: 10px auto;
+    padding: 15px;
+    border: 3px solid white;
+    text-align: center;
+}
+
+.result-table {
+    border-collapse: collapse;
+    margin: 15px auto;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+}
+
+.result-table th {
+    background-color: red;
+    color: black;
+    border: 2px solid black;
+    padding: 6px 12px;
+}
+
+.result-table td {
+    border: 2px solid black;
+    padding: 5px 10px;
+}
+
+.result-table tr:nth-child(even) td {
+    background-color: #dddddd;
+}
+
+.result-table tr:nth-child(odd) td {
+    background-color: #ffffff;
+}
+
+/* Data Entry Page */
+
+.dataentry-title {
+    color: yellow;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.dataentry-subtitle {
+    color: red;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.dataentry-instruction {
+    color: white;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.dataentry-container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.dataentry-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+}
+
+.dataentry-panel {
+    border: 3px solid yellow;
+    padding: 12px;
+    background-color: black;
+}
+
+.dataentry-panel h3 {
+    color: cyan;
+    margin-top: 0;
+    font-size: 22px;
+}
+
+.dataentry-table {
+    margin: 0 auto;
+    border-spacing: 8px;
+}
+
+.dataentry-table td {
+    color: yellow;
+    font-weight: bold;
+    text-align: right;
+}
+
+.dataentry-table input[type="text"] {
+    width: 180px;
+}
+
+.dataentry-button {
+    color: #00ff00;
+}
+
+.dataentry-clear {
+    color: yellow;
+}
+
+.dataentry-results {
+    margin-top: 25px;
+}
+
+/* Accountant Page */
+
+.accountant-title {
+    color: cyan;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.accountant-subtitle {
+    color: #00ff00;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.accountant-panel {
+    width: 75%;
+    margin: 25px auto;
+    background-color: #d9d9d9;
+    color: black;
+    border: 4px solid #777777;
+    padding: 20px;
+    text-align: left;
+}
+
+.accountant-option {
+    margin: 14px 0;
+    font-size: 17px;
+}
+
+.accountant-option span {
+    color: blue;
+    font-weight: bold;
+}
+
+.accountant-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.accountant-execute {
+    color: #00ff00;
+}
+
+.accountant-clear {
+    color: yellow;
+}
